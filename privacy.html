@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy - Discord Music Bot</title>
+  <style>
+    body { max-width: 48rem; margin: 4rem auto; padding: 0 1.25rem; color: #222; font: 1rem/1.6 system-ui, sans-serif; }
+    a { color: #5865f2; }
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="index.html">Discord Music Bot</a></p>
+    <h1>Privacy Policy</h1>
+    <p>Effective date: October 12, 2026</p>
+
+    <p>This policy describes information handled by the Discord Music Bot when it is running. Discord separately processes information under its own privacy policy.</p>
+
+    <h2>Information the bot handles</h2>
+    <p>When you use a command or player control, Discord sends the bot information needed to handle that interaction, which can include your Discord account identifier and display name, the server identifier, voice connection state, and the song search text or URL you submit. The bot uses the display name in the player message and processes the song request to find and play audio.</p>
+    <p>While running, the bot temporarily keeps server queue and playback state in memory. Track title, source URL, duration, and requester display name may remain in the current queue and recent-play history until that state is replaced or the bot process stops. The bot does not use a database or write this playback state to persistent storage.</p>
+
+    <h2>Audio sources and voice</h2>
+    <p>Song searches and source URLs are processed using yt-dlp and the relevant audio-source website to retrieve track details and a stream. The bot joins a voice channel to play the selected audio. It does not record or store voice-channel audio from participants. Discord and the relevant audio source handle information according to their own policies.</p>
+
+    <h2>Logs and hosting</h2>
+    <p>The bot writes operational errors to its process logs, which can include a track title when playback setup fails. The machine or hosting provider running the bot may independently retain infrastructure or access logs under its own policies. The bot operator does not configure a separate analytics or advertising service in this application.</p>
+
+    <h2>Retention and requests</h2>
+    <p>In-memory queues, playback state, and recent-play history are cleared when the bot process stops. If you have a privacy question or request, contact the operator at <a href="mailto:zeroskills71715@gmail.com">zeroskills71715@gmail.com</a>. The operator can address information under their control; requests for information held by Discord or an audio-source provider should be directed to that provider.</p>
+
+    <h2>Changes and contact</h2>
+    <p>This policy may be updated when the bot's data handling changes. The effective date above will be revised when that happens. For privacy questions, email <a href="mailto:zeroskills71715@gmail.com">zeroskills71715@gmail.com</a>.</p>
+
+    <p><a href="terms.html">Terms of Service</a></p>
+  </main>
+</body>
+</html>
